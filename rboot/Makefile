@@ -3,9 +3,9 @@
 # https://github.com/raburton/esp8266
 #
 
-ESPTOOL2 ?= D:/Projects/esp8266/esptool2/Release/esptool2.exe
+ESPTOOL2 ?= /Users/dolphin/Desktop/Mirobot/esptool2/esptool2
 
-XTENSA_BINDIR ?= C:/xtensa-lx106-elf/bin
+XTENSA_BINDIR ?= /Volumes/case-sensitive/esp-open-sdk/xtensa-lx106-elf/bin/
 CC := $(addprefix $(XTENSA_BINDIR)/,xtensa-lx106-elf-gcc)
 LD := $(addprefix $(XTENSA_BINDIR)/,xtensa-lx106-elf-gcc)
 

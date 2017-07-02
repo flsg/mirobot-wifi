@@ -14,14 +14,14 @@ RELEASE_BASE = release
 
 # Base directory for the compiler. Needs a / at the end; if not set it'll use the tools that are in
 # the PATH.
-XTENSA_TOOLS_ROOT ?= 
+XTENSA_TOOLS_ROOT ?= /Volumes/case-sensitive/esp-open-sdk/xtensa-lx106-elf/bin/
 
 # base directory of the ESP8266 SDK package, absolute
-SDK_BASE	?= /opt/Espressif/ESP8266_SDK
+SDK_BASE	?= /Volumes/case-sensitive/esp-open-sdk/sdk
 
 #Esptool.py path and port
 ESPTOOL		?= esptool.py
-ESPTOOL2	?= esptool2
+ESPTOOL2	?= /Users/dolphin/Desktop/Mirobot/esptool2/esptool2
 ESPPORT		?= /dev/ttyUSB0
 #ESPDELAY indicates seconds to wait between flashing the two binary images
 ESPDELAY	?= 3
